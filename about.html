@@ -1,58 +1,63 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
+  <title>About Me - Logan Munro</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Logan Munro</a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+  <!-- Sidebar Navigation -->
+  <div class="sidebar bg-dark text-white">
+    <h2 class="text-center mt-4">Logan Munro</h2>
+    <nav class="nav flex-column text-center">
+      <a class="nav-link text-white" href="index.html">Home</a>
+      <a class="nav-link text-white" href="resume.html">Resume</a>
+      <a class="nav-link text-white active" href="about.html">About</a>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <div class="container my-5">
+      <h1 class="text-center">About Me</h1>
+      <div class="about-text bg-light p-4 shadow-sm rounded">
+        <p>Hello! I'm Logan Munro, a 19-year-old Computer Science major at James Madison University. I enjoy learning about computers, programming, and playing competitive video games. I’m passionate about technology, and I’m always eager to learn new skills and contribute to impactful projects.</p>
+      </div>
+
+      <!-- Hobbies Section -->
+      <div class="my-5">
+        <h3>Hobbies</h3>
+        <ul class="list-group">
+          <li class="list-group-item">Playing video games</li>
+          <li class="list-group-item">Competing with my JMU esports team</li>
+          <li class="list-group-item">Hanging out with my family</li>
+          <li class="list-group-item">Learning new programming skills</li>
+        </ul>
+      </div>
+
+      <!-- Favorite Video Games Section -->
+      <div class="my-5">
+        <h3>Favorite Video Games</h3>
+        <ul class="list-group">
+          <li class="list-group-item">Overwatch</li>
+          <li class="list-group-item">World of Warcraft</li>
+          <li class="list-group-item">Team Fortress 2</li>
+          <li class="list-group-item">Call of Duty</li>
+        </ul>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="my-5">
+        <h3>Skills</h3>
+        <ul class="list-group">
+          <li class="list-group-item">HTML, CSS, JavaScript</li>
+          <li class="list-group-item">C language</li>
+          <li class="list-group-item">Java</li>
         </ul>
       </div>
     </div>
-  </nav>
-
-  <div class="container my-5">
-    <h2 class="text-center">About Me</h2>
-    <p>Hello there! I'm Logan Munro.</p>
-    <p>I am a 19 year old CS major at James Madison University. I enjoy learning about computers, programming, and playing competitive video games.<p></p>
-
-    <h3>Hobbies</h3>
-    <ul>
-      <li>Playing video games</li>
-      <li>Competing with my JMU esports team</li>
-      <li>Hanging out with my family</li>
-      <li>Learning new programming skills</li>
-    </ul>
-
-    <h3>Favorite Video Games</h3>
-    <ul>
-      <li>Overwatch</li>
-      <li>World of Warcraft</li>
-      <li>Team Fortress 2</li>
-      <li>Call of Duty</li>
-    </ul>
-
-    <h3>Skills</h3>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>C langauge</li>
-      <li>Java</li>
-    </ul>
   </div>
-
-  <footer class="text-center bg-dark text-white py-3">
-
-  </footer>
 </body>
 </html>
